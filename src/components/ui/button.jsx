@@ -76,7 +76,7 @@ export const StyledButton = ({
   href,
   sx,
 }) => {
-  console.log(sx)
+  console.log(sx);
   return (
     <Button
       variant={variant}
