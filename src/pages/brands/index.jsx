@@ -16,7 +16,7 @@ import {
   Search as SearchInput,
 } from 'components/style';
 
-import { TitleSection } from 'components/ui/shopping/style';
+import { TitleSection } from 'components/ui/Shopping/style';
 
 import {
   SectionFeaturedBrands,
@@ -24,7 +24,7 @@ import {
   SectionListBrands,
   ListBrands,
   BrandsContainer,
-} from 'components/ui/shopping/brands/style';
+} from 'components/ui/Shopping/brands/style';
 
 import { ChevronLeft } from '@mui/icons-material';
 import Search from 'components/icons/search';
@@ -45,14 +45,25 @@ const Brands = () => {
     dispatch(ACTIONS.brands.getFeaturedBrands());
   }, []);
 
-  useEffect(() => {
-    if (alphabetSelected) {
+  const scrollToTarget = (alphabetSelected) => {
+    return new Promise((resolve) => {
       const element = document.getElementById(alphabetSelected);
 
       element.scrollIntoView({
         behavior: 'smooth',
-        block: 'nearest',
-        inline: 'nearest',
+        block: 'start',
+      });
+      resolve();
+    });
+  };
+
+  useEffect(() => {
+    if (alphabetSelected) {
+      scrollToTarget(alphabetSelected).then(() => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth',
+        });
       });
     }
   }, [alphabetSelected]);
