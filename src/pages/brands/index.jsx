@@ -16,7 +16,7 @@ import {
   Search as SearchInput,
 } from 'components/style';
 
-import { TitleSection } from 'components/ui/Shopping/style';
+import { TitleSection } from 'components/ui/shopping/style';
 
 import {
   SectionFeaturedBrands,
@@ -24,7 +24,7 @@ import {
   SectionListBrands,
   ListBrands,
   BrandsContainer,
-} from 'components/ui/Shopping/brands/style';
+} from 'components/ui/shopping/brands/style';
 
 import { ChevronLeft } from '@mui/icons-material';
 import Search from 'components/icons/search';

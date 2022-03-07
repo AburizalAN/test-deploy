@@ -4,9 +4,9 @@ import SERVICES from 'store/modules/coupon/services';
 
 import AlertComponent from 'components/ui/shopping/AlertComponent';
 import { ChildWrapper, Container, CustomContainer } from 'components/style';
-import { EmptyStateWrapper } from 'components/ui/Shopping/style';
+import { EmptyStateWrapper } from 'components/ui/shopping/style';
 import { useSelector } from 'react-redux';
-import VoucherItem from 'components/ui/Shopping/voucher/VoucherItem';
+import VoucherItem from 'components/ui/shopping/voucher/VoucherItem';
 import moment from 'moment';
 
 import {

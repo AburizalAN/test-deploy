@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import {
   SlideWrapper,
   StyledFlexContainer,
-} from 'components/ui/Shopping/style';
+} from 'components/ui/shopping/style';
 import ProductItem from 'components/ui/product-item';
 import { useRouter } from 'next/router';
 import Skeleton from 'react-loading-skeleton';

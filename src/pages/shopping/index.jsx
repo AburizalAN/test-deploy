@@ -25,7 +25,7 @@ import {
   BackgroundPromoImage,
   // StyledLink,
   SectionProductSlider,
-} from 'components/ui/Shopping/style';
+} from 'components/ui/shopping/style';
 
 import { ImageBanner } from 'components/ui/Home/style';
 
@@ -45,11 +45,11 @@ import Link from 'next/link';
 import { capitalizeEachWord } from 'utils/helper';
 import AlertComponent from 'components/ui/shopping/AlertComponent';
 import Cookie from 'js-cookie';
-import ProductPremium from '../../components/ui/Shopping/ProductPremium';
-// import FlashSaleSection from 'components/ui/Shopping/FlashSaleSection';
+import ProductPremium from '../../components/ui/shopping/ProductPremium';
+// import FlashSaleSection from 'components/ui/shopping/FlashSaleSection';
 
 const ShopByLifestyle = dynamic(
-  () => import('../../components/ui/Shopping/ShopByLifestyle'),
+  () => import('../../components/ui/shopping/ShopByLifestyle'),
   {
     ssr: false,
   }

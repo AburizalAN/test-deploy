@@ -14,13 +14,13 @@ import SummaryComponent2 from 'components/ui/shopping/shipping/SummaryComponent2
 import NotesComponent from 'components/ui/shopping/shipping/NotesComponent';
 import PaymentModal from 'components/ui/shopping/shipping/PaymentModal';
 import { StyledModal as Modal } from 'components/ui/modal';
-import { BottomNavigation } from 'components/ui/Shopping/style';
-import ModalEmptyAddress from 'components/ui/Shopping/shipping/ModalEmptyAddress';
+import { BottomNavigation } from 'components/ui/shopping/style';
+import ModalEmptyAddress from 'components/ui/shopping/shipping/ModalEmptyAddress';
 
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
-import ModalOutOfStock from 'components/ui/Shopping/shipping/ModalOutOfStock';
-import ModalZeroPaymentSuccess from 'components/ui/Shopping/shipping/ModalZeroPaymentSuccess';
+import ModalOutOfStock from 'components/ui/shopping/shipping/ModalOutOfStock';
+import ModalZeroPaymentSuccess from 'components/ui/shopping/shipping/ModalZeroPaymentSuccess';
 
 const ThisContainer = styled(Container)`
   display: flex;

@@ -6,7 +6,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { TitleSection } from 'components/ui/TitleSection';
 import SwipeableEdgeDrawer from 'components/ui/popup-drawer';
-import { SlideWrapper } from 'components/ui/Shopping/style';
+import { SlideWrapper } from 'components/ui/shopping/style';
 import TextField from '@mui/material/TextField';
 import { StyledButton } from 'components/ui/button';
 import SortIcon from 'components/icons/icon-sort';

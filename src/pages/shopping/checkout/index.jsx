@@ -17,7 +17,7 @@ import { StyledModal as Modal } from 'components/ui/modal';
 import {
   BottomNavigation,
   EmptyStateWrapper,
-} from 'components/ui/Shopping/style';
+} from 'components/ui/shopping/style';
 
 import {
   CardContainer,

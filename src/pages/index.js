@@ -41,7 +41,7 @@ import IconLeaf from 'components/icons/icon-leaf';
 import IconInspiration from 'components/icons/icon-inspiration';
 // import MenuShop from 'components/icons/menu-shop';
 // import MenuArticle from 'components/icons/menu-article';
-import { SlideWrapper, IconMenu } from 'components/ui/Shopping/style';
+import { SlideWrapper, IconMenu } from 'components/ui/shopping/style';
 import SimpleSkeleton from 'components/loading/SimpleSkeleton';
 // import useSWR from 'swr';
 import { useState, useEffect } from 'react';
